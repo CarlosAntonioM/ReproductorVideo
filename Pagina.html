@@ -10,12 +10,12 @@
         <link rel="stylesheet" type="text/css" href="Estilo.css" />
 
     </head>
-
     <body>
+        <img src="overwatch.jpg" id="fondo" />
         <header id="n1">
             <ul class="nav">        
                 <li><a href="">Exit</a></li>
-                 <li><a href="">Configuration</a>
+                <li><a href="">Configuration</a>
                     <ul>
                         <li><a href="">Speed</a></li>
                         <li><a href="">Brightness</a></li>
@@ -25,14 +25,71 @@
                 <li><a href="">About</a></li>
                 <li><a href="">Home</a></li>   
             </ul>
-            
+
         </header>
 
         <nav>
             <div id="feed">
-
+                <iframe width="800" height="500" src="https://www.youtube.com/embed/sB5zlHMsM7k" frameborder="0" allowfullscreen="allowfullscreen" id="video" name="video"></iframe>
+                 
             </div>
-            <div id="lista"></div>
+            <div id="lista">
+               
+                <center>
+
+                    <select  id="listaVideos" name="name" onchange="video.location.href = this.options[this.selectedIndex].value" size="8">
+
+                        <option value="http://www.youtube.com/embed/sB5zlHMsM7k?feature=player_detailpage&amp;autoplay=1">
+
+                            Recall
+
+                        </option>
+
+                        <option value="http://www.youtube.com/embed/U130wnpi-C0?feature=player_detailpage&amp;autoplay=1">
+
+                            Alive
+
+                        </option>
+
+                        <option value="http://www.youtube.com/embed/oJ09xdxzIJQ?feature=player_detailpage&amp;autoplay=1">
+
+                            Dragons
+
+                        </option>
+                        
+                        <option value="http://www.youtube.com/embed/cPRRupAM4DI?feature=player_detailpage&amp;autoplay=1">
+
+                            Hero
+
+                        </option>
+
+                        <option value="http://www.youtube.com/embed/to8yh83jlXg?feature=player_detailpage&amp;autoplay=1">
+
+                            The Last Bastion
+
+                        </option>
+
+                        <option value="http://www.youtube.com/embed/Og5-Pm4HNlI?feature=player_detailpage&amp;autoplay=1">
+
+                            Infiltration
+
+                        </option>
+                        <option value="http://www.youtube.com/embed/8tjcm_kI0n0?feature=player_detailpage&amp;autoplay=1">
+
+                            Rise and Shine
+
+                        </option>
+
+                        <option value="http://www.youtube.com/embed/sQfk5HykiEk?feature=player_detailpage&amp;autoplay=1">
+
+                            Honor and Glory
+
+                        </option>
+                        
+                    </select>
+
+                </center>                 
+            </div>
         </nav>
 
         <footer id="descripcion">
