@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+    <head>
+
+        <meta charset="utf-8" />
+
+        <title>Pagina de Hugo y Carlos</title>
+        <link rel="stylesheet" type="text/css" href="Estilo.css" />
+        <script src="js/functions.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <img src="overwatch.jpg" id="fondo" />
+        <header id="n1">
+            <ul class="nav">        
+                <li><a href="">Exit</a></li>
+                <li><a href="">Configuration</a>
+                    <ul>
+                        <li><a href="">Speed</a></li>
+                        <li><a href="">Brightness</a></li>
+                        <li><a href="">Quality</a> </li>
+                    </ul>
+                </li>
+                <li><a href="">About</a></li>
+                <li><a href="">Home</a></li>   
+            </ul>
+
+        </header>
+
+
+        <div id="feed">
+            <section>
+            <video width="800" height="500" id="videos" ondrop="drop_handler(event);" ondragover="dragover_handler(event);" controls > <source src="Overwatch Animated Short  Recall.mp4" type="video/mp4">
+                Your browser does not support HTML5 video.
+            </video>
+            </section>
+        </div>
+        <div id="lista">
+            <center>
+                <select  id="listaVideos" name="name" onClick="cambiarVideo(this.value)" size="8">
+
+                    <option >
+
+                        Recall
+
+                    </option>
+
+                    <option >
+
+                        Alive
+
+                    </option>
+
+                    <option >
+
+                        Dragons
+
+                    </option>
+                    <option >
+
+                        Hero
+
+                    </option>
+                    <option >
+
+                        The Last Bastion
+
+                    </option>
+
+                </select>
+
+            </center>                 
+        </div>
+
+
+        <footer id="descripcion">
+
+            <small>
+
+
+
+            </small>        
+
+        </footer>
+
+
+    </body>
+
+</html>
